@@ -2,6 +2,12 @@
 
 [Live Demo](https://vue-maps-tech-chall.netlify.com/)
 
+_I didn't manage to do the stretch requirements in the alotted time, but I took a break and then finished them anyway.
+You can find the source code in a branch called *extra-credit* and I have included a demo for that too_
+
+[Extra Credit Demo](https://vue-maps-tech-chall-extra.netlify.com/)
+
+
 ## Requirements
 
 * Runs in chrome on desktop and safari on mobile.
@@ -12,6 +18,7 @@
 #### Stretch
 * Provide a list of pins seperately within the app.
 * Allow a user to click an item in the feed, centre the map and open a popup for that location.
+
 
 ## Basic Design
 * Single page.
