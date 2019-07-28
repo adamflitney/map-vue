@@ -18,7 +18,6 @@ export default new Vuex.Store({
     async getLatestLocationData ({ commit }) {
       const newMapData = await getMapData()
       commit('updateLocationData', newMapData)
-      console.log(this.state.locationData)
     }
   }
 })

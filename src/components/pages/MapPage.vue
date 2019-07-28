@@ -1,6 +1,6 @@
 <template>
     <div class="map-page">
-        <MapComponent />
+        <MapComponent :locations="locations" />
     </div>
 </template>
 
@@ -10,6 +10,14 @@ export default {
   name: 'MapPage',
   components: {
     MapComponent
+  },
+  computed: {
+    locations () {
+      return this.$store.state.locationData
+    }
+  },
+  created () {
+    this.$store.dispatch('getLatestLocationData')
   }
 }
 </script>
