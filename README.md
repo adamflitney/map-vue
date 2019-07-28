@@ -1,5 +1,7 @@
 # map-challenge
 
+[Live Demo](https://vue-maps-tech-chall.netlify.com/)
+
 ## Requirements
 
 * Runs in chrome on desktop and safari on mobile.
