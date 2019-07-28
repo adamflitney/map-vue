@@ -1,34 +1,23 @@
 # map-challenge
 
-## Project setup
-```
-npm install
-```
+## Requirements
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+* Runs in chrome on desktop and safari on mobile.
+* Loads map data from provided endpoint.
+* Display a map with a pin for each location in the data feed using latitude and longitude from the feed.
+* Once a pin is tapped, popup should show country name from feed.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+#### Stretch
+* Provide a list of pins seperately within the app.
+* Allow a user to click an item in the feed, centre the map and open a popup for that location.
 
-### Run your tests
-```
-npm run test
-```
+## Basic Design
+* Single page.
+* Full screen map.
+* Store feed data in Vuex store.
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Installation
+* Clone this repo.
+* Run `npm install`.
+* Run `npm run serve` to run locally.
+* Run `npm run build` to deploy.
