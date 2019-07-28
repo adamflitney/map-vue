@@ -15,5 +15,7 @@ export default {
 </script>
 
 <style>
-
+.map-page {
+    height: 100%;
+}
 </style>

@@ -32,5 +32,7 @@ export default {
 </script>
 
 <style>
-
+.map-component {
+    height: 100%;
+}
 </style>
