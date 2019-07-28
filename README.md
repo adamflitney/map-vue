@@ -21,3 +21,6 @@
 * Run `npm install`.
 * Run `npm run serve` to run locally.
 * Run `npm run build` to deploy.
+
+## Testing
+Run `npm run test:unit` to run unit tests.
