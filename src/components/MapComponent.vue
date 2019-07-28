@@ -6,8 +6,10 @@
 
 <script>
 export default {
-  name: 'MapComponent'
-
+  name: 'MapComponent',
+  mounted () {
+    this.$store.dispatch('getLatestLocationData')
+  }
 }
 </script>
 

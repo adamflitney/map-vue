@@ -5,7 +5,7 @@ const endpointURI = 'https://s3-eu-west-1.amazonaws.com/omnifi/techtests/locatio
 export function getMapData () {
   return axios.get(endpointURI)
     .then(response => {
-      return response
+      return response.data
     })
     .catch(error => {
       return error
