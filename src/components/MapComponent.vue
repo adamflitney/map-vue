@@ -112,17 +112,7 @@ export default {
 }
 </script>
 
-<style>
-.map-component {
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr fit-content(20%);
-}
-
-.map-container {
-    height: 100%;
-}
-
+<style scoped>
 .location-list {
     max-height: 100vh;
     overflow-y: scroll;
@@ -138,11 +128,13 @@ export default {
     list-style: none;
     padding: 1rem 2rem;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 .location-list li:hover,
 .selected {
-    background-color: grey;
+    background-color: #2d3d50;
+    color: #fff;
 }
 
 button {
@@ -150,6 +142,38 @@ button {
     border-style: none;
     padding: 0;
     margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .location-list ul {
+    width: 100%;
+}
+button {
+    width: 100%;
+}
+}
+</style>
+
+<style>
+*:focus {
+    outline: none;
+}
+
+.map-component {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr fit-content(20%);
+}
+
+.map-container {
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .map-component {
+      grid-template-columns: 1fr;
+    grid-template-rows: 1fr fit-content(20%);
+}
 }
 
 </style>
